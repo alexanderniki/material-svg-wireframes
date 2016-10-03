@@ -17,7 +17,21 @@
    inkscape:version="0.91 r"
    sodipodi:docname="app_bar.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4449"
+       x="-0.013852573"
+       width="1.0277051"
+       y="-0.08972973"
+       height="1.1794595">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="8.3"
+         id="feGaussianBlur4451" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,11 +39,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.43162977"
-     inkscape:cx="698.96961"
-     inkscape:cy="36.541883"
+     inkscape:zoom="0.83125"
+     inkscape:cx="394.07339"
+     inkscape:cy="154.01082"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer5"
      showgrid="false"
      units="px"
      inkscape:showpageshadow="false"
@@ -67,15 +81,29 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="shadow">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4.23257017;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4449)"
+       id="rect3345"
+       width="1438"
+       height="222"
+       x="19.92"
+       y="0.080000758"
+       transform="matrix(0.97439518,0,0,-0.91658878,3.9044874e-4,223.81488)" />
+  </g>
+  <g
      inkscape:label="bg"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-828.36216)">
+     transform="translate(0,-828.36216)"
+     style="display:inline">
     <rect
        style="opacity:1;fill:#424242;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3347"
@@ -87,7 +115,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="icon">
+     inkscape:label="icon"
+     style="display:inline">
     <path
        id="path4250"
        d="m 64,85.999995 72,0 0,8 -72,0 0,-8 z M 64,106 l 72,0 0,8 -72,0 0,-8 z m 0,20 72,0 0,8 -72,0 0,-8 z"
@@ -97,10 +126,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="header">
+     inkscape:label="header"
+     style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.00854492px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.00854492px;line-height:125%;font-family:Roboto;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="287.35147"
        y="958.02295"
        id="text3349"
@@ -114,7 +144,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="menu_button">
+     inkscape:label="menu_button"
+     style="display:inline">
     <path
        id="path4239"
        d="m 1368,128 c 4.4184,0 8,3.5816 8,8 0,4.4184 -3.5816,8 -8,8 -4.4184,0 -8,-3.5816 -8,-8 0,-4.4184 3.5816,-8 8,-8 z m 0,-24 c 4.4184,0 8,3.5816 8,8 0,4.4184 -3.5816,8 -8,8 -4.4184,0 -8,-3.5816 -8,-8 0,-4.4184 3.5816,-8 8,-8 z m 0,-23.999998 c 4.4184,0 8,3.58176 8,8 0,4.41828 -3.5816,8 -8,8 -4.4184,0 -8,-3.58172 -8,-8 0,-4.41828 3.5816,-8 8,-8 z"
